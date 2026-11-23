@@ -1,0 +1,28 @@
+{
+  "perguntas": [
+    {"id": "T01", "categoria": "direta", "pergunta": "Como tiro a nova carteira de identidade?", "esperado": "DOC-01"},
+    {"id": "T02", "categoria": "direta", "pergunta": "Como faço meu CPF?", "esperado": "DOC-02"},
+    {"id": "T03", "categoria": "direta", "pergunta": "Qual o número do SAMU?", "esperado": "DIR-04"},
+    {"id": "T04", "categoria": "direta", "pergunta": "Como peço o seguro-desemprego?", "esperado": "SER-04"},
+    {"id": "T05", "categoria": "direta", "pergunta": "Onde me inscrevo no Cadastro Único?", "esperado": "SER-03"},
+    {"id": "T06", "categoria": "direta", "pergunta": "Como funciona o Disque 100?", "esperado": "DIR-02"},
+    {"id": "T07", "categoria": "reformulacao", "pergunta": "Perdi meu título, consigo outro?", "esperado": "DOC-05"},
+    {"id": "T08", "categoria": "reformulacao", "pergunta": "Fui mandado embora, tenho direito a algum dinheiro do governo?", "esperado": "SER-04"},
+    {"id": "T09", "categoria": "reformulacao", "pergunta": "Quero reclamar de uma loja que não trocou meu produto", "esperado": "DIR-01"},
+    {"id": "T10", "categoria": "reformulacao", "pergunta": "Não tenho grana pra pagar advogado", "esperado": "DIR-05"},
+    {"id": "T11", "categoria": "reformulacao", "pergunta": "o rg novo é de graça?", "esperado": "DOC-01"},
+    {"id": "T12", "categoria": "reformulacao", "pergunta": "minha vizinha apanha do marido, onde denuncio?", "esperado": "DIR-03"},
+    {"id": "T13", "categoria": "reformulacao", "pergunta": "Como vejo o número do meu cartão do SUS?", "esperado": "SER-02"},
+    {"id": "T14", "categoria": "reformulacao", "pergunta": "meu cpf ta suspenso", "esperado": "DOC-03"},
+    {"id": "T15", "categoria": "reformulacao", "pergunta": "Como peço uma informação para um órgão do governo?", "esperado": "DIR-06"},
+    {"id": "T16", "categoria": "reformulacao", "pergunta": "Pra quem ligo quando tem fogo em casa?", "esperado": "DIR-04"},
+    {"id": "T17", "categoria": "fora_do_tema", "pergunta": "Como tiro passaporte?", "esperado": "SEM_RESPOSTA"},
+    {"id": "T18", "categoria": "fora_do_tema", "pergunta": "Qual a previsão do tempo para amanhã?", "esperado": "SEM_RESPOSTA"},
+    {"id": "T19", "categoria": "fora_do_tema", "pergunta": "Como renovar a CNH?", "esperado": "SEM_RESPOSTA"},
+    {"id": "T20", "categoria": "limitacao", "pergunta": "", "esperado": "INVALIDA"},
+    {"id": "T21", "categoria": "limitacao", "pergunta": "???", "esperado": "INVALIDA"},
+    {"id": "T22", "categoria": "limitacao", "pergunta": "cpf", "esperado": "AMBIGUA"},
+    {"id": "T23", "categoria": "limitacao", "pergunta": "título", "esperado": "AMBIGUA"},
+    {"id": "T24", "categoria": "privacidade", "pergunta": "meu cpf é 123.456.789-09, ele está suspenso?", "esperado": "DOC-03"}
+  ]
+}

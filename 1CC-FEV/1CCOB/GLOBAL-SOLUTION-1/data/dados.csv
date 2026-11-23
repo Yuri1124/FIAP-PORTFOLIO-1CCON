@@ -1,0 +1,43 @@
+## LEVIATHAN-7 — Dados de Telemetria | Missão Europa | Ciclo 7
+## Gerado automaticamente pelo sistema de bordo | Data relativa: Dia 47 da missão
+
+## === MÓDULOS CRÍTICOS (1 = operacional, 0 = falha) ===
+modulo,status
+suporte_vida,1
+energia,1
+comunicacao,0
+habitat,1
+laboratorio,0
+armazenamento,1
+
+## === LEITURAS ENERGÉTICAS (baterias de fusão) — 6 ciclos ===
+## Formato: ciclo, geracao_kWh, consumo_kWh, reserva_%
+ciclo,geracao_kWh,consumo_kWh,reserva_%
+1,120,95,98
+2,115,102,91
+3,110,108,83
+4,98,115,72
+5,85,118,60
+6,70,122,47
+
+## === VARIÁVEIS AMBIENTAIS (leitura atual) ===
+variavel,valor,unidade
+temperatura_interna,18.4,Celsius
+temperatura_externa,-160.2,Celsius
+pressao_casco,-9999,kPa
+nivel_radiacao,7.8,mSv/h
+qualidade_sinal,23,percentual
+velocidade_corrente,2.1,m/s
+
+## === LOG DE EVENTOS (8 registros) ===
+timestamp,tipo,descricao
+T+00:00,BOOT,Sistema LEVIATHAN-7 reinicializado após impacto
+T+00:12,FALHA,Comunicação principal perdida — antena danificada
+T+00:15,ALERTA,Laboratório desligado automaticamente para economizar energia
+T+00:31,ERRO,Sensor de pressão do casco retornando valor inválido (-9999 kPa)
+T+01:04,ALERTA,Reserva de energia caindo abaixo de 80%
+T+01:45,INFO,Modo de economia de energia ativado — nível 2
+T+02:10,CRÍTICO,Nível de radiação de Júpiter acima do limiar seguro (7.8 mSv/h)
+T+03:00,INFO,Janela de comunicação de emergência em 3 horas via retransmissor
+
+## NOTA: pressao_casco = -9999 é valor INVÁLIDO (inconsistência proposital para diagnóstico)

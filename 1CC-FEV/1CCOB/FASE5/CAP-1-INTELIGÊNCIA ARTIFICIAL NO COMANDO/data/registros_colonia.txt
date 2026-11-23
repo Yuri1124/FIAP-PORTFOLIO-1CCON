@@ -1,0 +1,12 @@
+==================================================
+REGISTROS OPERACIONAIS - NUCLEO COGNITIVO AURORA SIGER
+==================================================
+[2026-09-01 08:32:10] SISTEMA - Nucleo Cognitivo inicializado pela primeira vez.
+[2026-09-01 08:40:05] LOGIN - Operador Halden acessou o painel de modulos.
+[2026-09-01 09:15:22] MANUTENCAO - Modulo Suporte de Vida - Inspecao de rotina concluida sem falhas.
+[2026-09-01 14:02:47] ALERTA - Novo alerta cadastrado (ID 1) no modulo Reator de Fusao.
+[2026-09-02 07:55:31] SOLICITACAO - Nova solicitacao cadastrada (ID 1) por Comandante Ihara.
+[2026-09-02 10:20:09] ALERTA - Novo alerta cadastrado (ID 2) no modulo Hidroponia Central.
+[2026-09-02 16:44:58] SOLICITACAO - Nova solicitacao cadastrada (ID 2) por Tecnica Alave.
+[2026-09-08 23:28:04] ALERTA - Novo alerta cadastrado (ID 3) no modulo 'Teste'.
+[2026-09-08 23:32:39] ANALISE - Alerta ID 2 analisado. Bloqueio=True.

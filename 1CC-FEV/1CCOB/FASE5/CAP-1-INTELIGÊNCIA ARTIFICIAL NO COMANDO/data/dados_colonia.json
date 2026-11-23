@@ -1,0 +1,79 @@
+{
+    "modulos": [
+        {
+            "nome": "Suporte de Vida",
+            "status": "ativo",
+            "responsavel": "Equipe Biosuporte",
+            "ultima_manutencao": "2026-08-20"
+        },
+        {
+            "nome": "Reator de Fusao",
+            "status": "ativo",
+            "responsavel": "Equipe Engenharia",
+            "ultima_manutencao": "2026-08-15"
+        },
+        {
+            "nome": "Hidroponia Central",
+            "status": "manutencao",
+            "responsavel": "Equipe Agricultura",
+            "ultima_manutencao": "2026-09-01"
+        }
+    ],
+    "alertas": [
+        {
+            "id": 1,
+            "modulo": "Reator de Fusao",
+            "tipo_ocorrencia": "Falha Critica",
+            "prioridade": "Alta",
+            "data": "2026-09-01",
+            "seguro": false,
+            "consistente": true,
+            "mensagem": "Temperatura do reator acima do limite seguro operacional."
+        },
+        {
+            "id": 2,
+            "modulo": "Hidroponia Central",
+            "tipo_ocorrencia": "Consumo Elevado",
+            "prioridade": "Media",
+            "data": "2026-09-02",
+            "seguro": true,
+            "consistente": false,
+            "mensagem": "Consumo de agua acima da media historica do setor."
+        },
+        {
+            "id": 3,
+            "modulo": "Teste",
+            "tipo_ocorrencia": "Teste",
+            "prioridade": "Alta",
+            "data": "2026-09-08",
+            "seguro": true,
+            "consistente": true,
+            "mensagem": "Essa é uma mensagem teste"
+        }
+    ],
+    "solicitacoes": [
+        {
+            "id": 1,
+            "tripulante": "Comandante Ihara",
+            "setor": "Engenharia",
+            "urgente": true,
+            "essencial": true,
+            "descricao": "Solicito verificacao imediata do sistema de refrigeracao do reator."
+        },
+        {
+            "id": 2,
+            "tripulante": "Tecnica Alave",
+            "setor": "Lazer",
+            "urgente": false,
+            "essencial": false,
+            "descricao": "Solicito ajuste de iluminacao no modulo de convivencia."
+        }
+    ],
+    "historico_respostas": [
+        {
+            "pergunta": "Voce e o assistente do Nucleo Cognitivo da Aurora Siger.\nPense passo a passo antes de responder:\n1) Verifique se o modulo esta seguro.\n2) Verifique se os dados do modulo sao consistentes.\n3) Aplique a regra: BLOQUEIO = (NOT SEGURO) OR (NOT CONSISTENTE).\n4) Gere uma recomendacao objetiva para o centro de controle.\n\nModulo: Hidroponia Central\nSeguro: True | Consistente: False\nResultado da regra: BLOQUEIO = True\n\nGere a recomendacao final em uma frase objetiva.",
+            "resposta_simulada": "Recomenda-se o bloqueio imediato da operacao do modulo ate a verificacao completa de seguranca e consistencia dos dados.",
+            "tipo_prompt": "chain-of-thought"
+        }
+    ]
+}

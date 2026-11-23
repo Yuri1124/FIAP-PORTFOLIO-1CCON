@@ -1,0 +1,25 @@
+id;categoria;pergunta;esperado;obtido;resultado;tempo_ms
+T01;direta;Como tiro a nova carteira de identidade?;DOC-01;DOC-01;ACERTO;0.017
+T02;direta;Como faço meu CPF?;DOC-02;DOC-02;ACERTO;0.016
+T03;direta;Qual o número do SAMU?;DIR-04;DIR-04;ACERTO;0.015
+T04;direta;Como peço o seguro-desemprego?;SER-04;SER-04;ACERTO;0.016
+T05;direta;Onde me inscrevo no Cadastro Único?;SER-03;SER-03;ACERTO;0.018
+T06;direta;Como funciona o Disque 100?;DIR-02;DIR-02;ACERTO;0.015
+T07;reformulacao;Perdi meu título, consigo outro?;DOC-05;DOC-05;ACERTO;0.017
+T08;reformulacao;Fui mandado embora, tenho direito a algum dinheiro do governo?;SER-04;SEM_RESPOSTA;ERRO;0.022
+T09;reformulacao;Quero reclamar de uma loja que não trocou meu produto;DIR-01;DIR-01;ACERTO;0.022
+T10;reformulacao;Não tenho grana pra pagar advogado;DIR-05;DIR-05;ACERTO;0.017
+T11;reformulacao;o rg novo é de graça?;DOC-01;DOC-01;ACERTO;0.015
+T12;reformulacao;minha vizinha apanha do marido, onde denuncio?;DIR-03;DIR-02;ERRO;0.018
+T13;reformulacao;Como vejo o número do meu cartão do SUS?;SER-02;SER-02;ACERTO;0.022
+T14;reformulacao;meu cpf ta suspenso;DOC-03;DOC-03;ACERTO;0.012
+T15;reformulacao;Como peço uma informação para um órgão do governo?;DIR-06;DIR-06;ACERTO;0.020
+T16;reformulacao;Pra quem ligo quando tem fogo em casa?;DIR-04;DIR-04;ACERTO;0.018
+T17;fora_do_tema;Como tiro passaporte?;SEM_RESPOSTA;SEM_RESPOSTA;ACERTO;0.011
+T18;fora_do_tema;Qual a previsão do tempo para amanhã?;SEM_RESPOSTA;SEM_RESPOSTA;ACERTO;0.014
+T19;fora_do_tema;Como renovar a CNH?;SEM_RESPOSTA;SEM_RESPOSTA;ACERTO;0.009
+T20;limitacao;;INVALIDA;INVALIDA;ACERTO;0.001
+T21;limitacao;???;INVALIDA;INVALIDA;ACERTO;0.004
+T22;limitacao;cpf;AMBIGUA;AMBIGUA;ACERTO;0.006
+T23;limitacao;título;AMBIGUA;AMBIGUA;ACERTO;0.007
+T24;privacidade;meu cpf é 123.456.789-09, ele está suspenso?;DOC-03;DOC-03;ACERTO;0.018

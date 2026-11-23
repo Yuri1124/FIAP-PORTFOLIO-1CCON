@@ -234,18 +234,13 @@ Opção inexistente: '9'.
 
 ### 📢 Observações Gerais
 
-* **Participação na Competição:** [ ] Sim, aceito participar / [ ] Não vou participar.
+* **Participação na Competição:** [ ] Sim, aceito participar / [X] Não vou participar.
 
 ## 🔧 Como executar o código
 
 **Pré-requisitos:** Python 3.8 ou mais recente e Git. Não é preciso instalar bibliotecas: o projeto usa só a biblioteca padrão do Python.
 
 1. Clone o repositório e entre na pasta do projeto:
-
-```bash
-git clone https://github.com/SEU_USUARIO/FIAP-PORTFOLIO-1CCON.git
-cd FIAP-PORTFOLIO-1CCON/1CC-XXX/TURMA/GLOBAL-SOLUTION-2
-```
 
 2. Execute o assistente:
 

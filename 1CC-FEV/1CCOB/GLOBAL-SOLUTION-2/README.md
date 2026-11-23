@@ -20,7 +20,7 @@ Equipe 16 (projeto individual)
 ## 👩‍🏫 Professores:
 
 ### Tutor(a)
-- <a href="LINK_DO_TUTOR">NOME DO TUTOR</a>
+- <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a>
 
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a>
